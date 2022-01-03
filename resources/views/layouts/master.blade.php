@@ -10,7 +10,9 @@
     @stack('styles')
 </head>
 <body>
+@include('layouts.navbar')
 @yield('content')
+<script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 @stack('scripts')
 </body>
